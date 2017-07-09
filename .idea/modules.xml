@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/StarrySkyDemo.iml" filepath="$PROJECT_DIR$/StarrySkyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starryskydemo/starryskydemo.iml" filepath="$PROJECT_DIR$/starryskydemo/starryskydemo.iml" />
+    </modules>
+  </component>
+</project>
