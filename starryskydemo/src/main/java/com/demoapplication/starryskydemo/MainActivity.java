@@ -6,7 +6,6 @@ import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 
 import butterknife.BindView;
@@ -48,7 +47,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.e("ondestroy", "被调用了");
 //        binder.startPlayMusic();
         unbindService(connection);
     }
